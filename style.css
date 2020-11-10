@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column1, .column2, .column3 {
+    border: 1px solid black;
+    height: 852px;
+}
+
+.column1 {
+width: 7%;
+background-color: black;
+color: white;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.column2 {
+    width: 50%;
+}
+
+.column3 {
+    width: 35%;
+}
+
+.f {
+    font-size: 64px;
+    line-height: 102px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: bold;
+    width: 47px;
+    height: 102px;
+}
+
+.menu {
+height: 545px;
+display: flex;
+flex-direction: column;
+ justify-content: space-between;
+}
+
+.exit {
+height: 66px;
+}
+
+.circle1 {
+    position: absolute;
+    top: 340px;
+    left: 80px;
+}
+
+.circle2 {
+    position: absolute;
+    top: 531px;
+    left: 82px;
+}
+
+.column1 a {
+text-decoration: none;
+color: white;
+}
