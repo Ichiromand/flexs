@@ -32,31 +32,40 @@ justify-content: space-between;
     line-height: 102px;
     font-family: 'Baloo Bhaina 2', cursive;
     font-weight: bold;
-    width: 47px;
     height: 102px;
 }
 
 .menu {
+margin-top: 15px;
 height: 545px;
 display: flex;
 flex-direction: column;
- justify-content: space-between;
+justify-content: space-between;
 }
 
 .exit {
 height: 66px;
 }
 
+.menu div {
+width: 47px;
+text-align: center;
+}
+
+.relative {
+position: relative;
+}
+
 .circle1 {
     position: absolute;
-    top: 340px;
-    left: 80px;
+    top: -13px;
+    left: 16px;
 }
 
 .circle2 {
     position: absolute;
-    top: 531px;
-    left: 82px;
+    top: 8px;
+    left: 17px;
 }
 
 .column1 a {
