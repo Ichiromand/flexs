@@ -1,6 +1,7 @@
 .container {
     display: flex;
     justify-content: space-around;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .column1, .column2, .column3 {
@@ -30,7 +31,6 @@ justify-content: space-between;
 .f {
     font-size: 64px;
     line-height: 102px;
-    font-family: 'Baloo Bhaina 2', cursive;
     font-weight: bold;
     height: 102px;
 }
