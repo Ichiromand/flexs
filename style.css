@@ -11,7 +11,7 @@ body {
     min-height: 852px;
 }
 
-.column2, .column3 {
+ .column3 {
     border: 1px solid black;
 }
 
@@ -24,15 +24,19 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-box-shadow: 15px 10px 40px gray;
+box-shadow: 20px 10px 15px 5px #E5E5E5;
+min-width: 100px;
+height: 852px;
 }
 
 .column2 {
-    width: 50%;
+    width: 45%;
+    min-width: 620px;
 }
 
 .column3 {
-    width: 35%;
+    width: 30%;
+    min-width:440px;
 }
 
 .f {
@@ -78,4 +82,317 @@ position: relative;
 .column1 a {
 text-decoration: none;
 color: white;
+}
+
+.block1 {
+    padding-top: 31px;
+    box-sizing: border-box;
+}
+
+.hello {
+    height: 160px;
+    background-color: #F5F5F7;
+    border-radius: 25px;
+    padding-left: 31px;
+    padding-top: 46px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Josh {
+font-size: 36px;
+line-height: 57px;
+}
+
+.see_you {
+    font-size: 16px;
+line-height: 24px;
+font-family: Roboto;
+}
+
+.courses, .spanish .b2 {
+    height: 80px;
+    background-color: #F5F5F7;
+    border-radius: 15px;
+}
+
+.spanish {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.percent {
+position: relative;
+font-size: 13px;
+line-height: 15px;
+font-family: Roboto;
+}
+
+.percent img {
+    position: absolute;
+    top: -13px;
+    left: -9px;
+}
+
+.title1 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.title2 {
+    font-size: 13px;
+    line-height: 15px;
+    font-family: Roboto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 34px;
+    border: transparent;
+    margin-right: 24px;
+}
+
+.arrows {
+width: 5%;
+position: relative;
+}
+
+.arrows img:first-of-type {
+position: absolute;
+top: -7px;
+left: -12px;
+}
+
+.miniimg {
+    background-color: white;
+    border-radius: 15px;
+    width: 64px;
+    height: 64px;
+    margin-left: 9px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.insta {
+    background-image: url(img/insta.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.ps {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid #D9F5FF;
+    color: #D9F5FF;
+    border-radius: 7px;
+    transform: translate(15px, 15px);
+}
+
+.ps div {
+    font-size: 18px;
+    font-family: roboto;
+    transform: translate(5px, 5px);
+}
+
+.courses div:nth-of-type(2) {
+    width: 152px;
+}
+
+.courses div:nth-of-type(3) {
+    width: 86px;
+}
+
+.courses div:nth-of-type(4) {
+    width: 40px;
+}
+
+.clock, .fire {
+    position: relative;
+}
+
+.clock img {
+    position: absolute;
+    top: -2px;
+    left: -24px;
+}
+
+.fire img {
+    position: absolute;
+    top: -2px;
+    left: -21px;
+}
+
+.minimenu {
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+.minimenu div:first-of-type {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.minimenu span {
+font-size: 16px;
+line-height: 26px;
+opacity: 0.3;
+padding-right: 31px;
+}
+
+.minimenu span:first-of-type {
+opacity: 1;
+}
+
+.man {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 104px;
+}
+
+.hand {
+    position: absolute;
+    top: -60px;
+    left:-49px;
+}
+
+.neck1 {
+    position: absolute;
+    top: -23px;
+    left: 56px;
+}
+
+.neck2 {
+    position: absolute;
+    top: -23px;
+    left: 77px;
+}
+
+.face {
+    position: absolute;
+    top: -63px;
+    left: 40px;
+}
+
+.mouth {
+    position: absolute;
+    top: -40px;
+    left: 60px;
+}
+.nose {
+    position: absolute;
+    top: -58px;
+    left: 65px;
+}
+
+.glass1 {
+    position: absolute;
+    top: -85px;
+    left: 37px;
+}
+
+.glass2 {
+    position: absolute;
+    top: -85px;
+    left: 69px;
+}
+
+.inglass {
+    position: absolute;
+    top: -72px;
+    left: 65px;
+}
+
+.eye1 {
+    position: absolute;
+    top: -74px;
+    left: 49px;
+}
+
+.eye2 {
+    position: absolute;
+    top: -74px;
+    left: 81px;
+}
+
+.brain {
+        position: absolute;
+        top: -119px;
+        left: 40px;
+}
+
+.hair1 {
+    position: absolute;
+    top: -121px;
+    left: 33px;
+}
+
+.hair2 {
+    position: absolute;
+    top: -125px;
+    left: 45px;
+}
+
+.eyebrow1 {
+    position: absolute;
+    top: -90px;
+    left: 44px;
+}
+
+.eyebrow2 {
+    position: absolute;
+    top: -90px;
+    left: 76px;
+}
+
+.ear1 {
+    position: absolute;
+    top: -66px;
+    left: 30px;
+}
+
+.ear2 {
+    position: absolute;
+    top: -66px;
+    left: 95px;
+}
+
+.inear1 {
+    position: absolute;
+    top: -61px;
+    left: 35px;
+}
+
+.inear2 {
+    position: absolute;
+    top: -61px;
+    left: 96px;
 }
