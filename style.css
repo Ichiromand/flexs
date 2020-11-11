@@ -206,20 +206,34 @@ left: -12px;
     background-position: 50% 50%;
 }
 
-.ps {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border: 2px solid #D9F5FF;
-    color: #D9F5FF;
-    border-radius: 7px;
-    transform: translate(15px, 15px);
+.pen {
+    background-image: url(img/img4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
-.ps div {
-    font-size: 18px;
-    font-family: roboto;
-    transform: translate(5px, 5px);
+.analog {
+    background-image: url(img/img3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.figma {
+    background-image: url(img/img2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.sp {
+    background-image: url(img/img1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.ps {
+    background-image: url(img/img5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .courses div:nth-of-type(2) {
@@ -273,126 +287,5 @@ opacity: 1;
 }
 
 .man {
-    position: relative;
-    margin-top: 50px;
-    margin-right: 104px;
-}
-
-.hand {
-    position: absolute;
-    top: -60px;
-    left:-49px;
-}
-
-.neck1 {
-    position: absolute;
-    top: -23px;
-    left: 56px;
-}
-
-.neck2 {
-    position: absolute;
-    top: -23px;
-    left: 77px;
-}
-
-.face {
-    position: absolute;
-    top: -63px;
-    left: 40px;
-}
-
-.mouth {
-    position: absolute;
-    top: -40px;
-    left: 60px;
-}
-.nose {
-    position: absolute;
-    top: -58px;
-    left: 65px;
-}
-
-.glass1 {
-    position: absolute;
-    top: -85px;
-    left: 37px;
-}
-
-.glass2 {
-    position: absolute;
-    top: -85px;
-    left: 69px;
-}
-
-.inglass {
-    position: absolute;
-    top: -72px;
-    left: 65px;
-}
-
-.eye1 {
-    position: absolute;
-    top: -74px;
-    left: 49px;
-}
-
-.eye2 {
-    position: absolute;
-    top: -74px;
-    left: 81px;
-}
-
-.brain {
-        position: absolute;
-        top: -119px;
-        left: 40px;
-}
-
-.hair1 {
-    position: absolute;
-    top: -121px;
-    left: 33px;
-}
-
-.hair2 {
-    position: absolute;
-    top: -125px;
-    left: 45px;
-}
-
-.eyebrow1 {
-    position: absolute;
-    top: -90px;
-    left: 44px;
-}
-
-.eyebrow2 {
-    position: absolute;
-    top: -90px;
-    left: 76px;
-}
-
-.ear1 {
-    position: absolute;
-    top: -66px;
-    left: 30px;
-}
-
-.ear2 {
-    position: absolute;
-    top: -66px;
-    left: 95px;
-}
-
-.inear1 {
-    position: absolute;
-    top: -61px;
-    left: 35px;
-}
-
-.inear2 {
-    position: absolute;
-    top: -61px;
-    left: 96px;
+transform: translate(-104px, -78px);
 }
